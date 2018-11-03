@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@android:color/white" />
+  <item>
+    <bitmap android:gravity="center" android:src="@mipmap/splashscreen_logo" />
+  </item>
+  <item android:bottom="45dp">
+    <!-- I hate that i can't use a text label as item here -->
+    <!-- Using vectorial paths isn't a valid alternative since with some fonts it may cause licensing problems -->
+    <bitmap android:gravity="bottom" android:src="@mipmap/splashscreen_text" />
+  </item>
+</layer-list>
